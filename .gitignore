@@ -1,0 +1,41 @@
+# Autodesk Inventor
+OldVersions/
+*.lck
+*.lockinfo
+*.ipj.bak
+*.iam.bak
+*.ipt.bak
+~$*
+
+# Salidas temporales de ensayos
+*.log
+*.tmp
+*.ttt.bak
+Capturas/Recorrido/
+
+# Arduino, Python y editores
+build/
+.pio/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Credenciales y configuración local
+.env
+.env.*
+*.local
+*.pem
+*.pfx
+*.key
+secrets.h
+secrets.json
+credentials.json
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+.DS_Store

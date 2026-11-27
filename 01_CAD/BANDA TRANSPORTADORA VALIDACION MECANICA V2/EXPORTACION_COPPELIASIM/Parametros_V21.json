@@ -1,0 +1,49 @@
+{
+  "procedencia": "Las cifras de ensayo son supuestos separados de la calibración del prototipo.",
+  "ensayo": {
+    "motor": {"referenciaMaxRpm": 170, "vacioEscenarioRpm": 180, "parBloqueoNm": 0.065, "inerciaReflejadaExtraKgM2": 0.000018, "perdidaViscosaNmS": 0.000085},
+    "acople": {"capacidadEscenarioNm": 0.035, "amortiguamientoNmS": 0.004, "relacionNormal": 1},
+    "rodillo": {"radioM": 0.015, "perdidaViscosaNmS": 0.000045},
+    "banda": {"pretensionRamaFlojaN": 3, "muEstaticaPOM": 0.40, "muDinamicaPOM": 0.30, "fuerzaBaseN": 0.08, "pesoCargaDistribuido": 1},
+    "apoyos": [
+      {"id": "palito arriba de la banda:1", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32},
+      {"id": "palito arriba de la banda:2", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32},
+      {"id": "palito arriba de la banda:3", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32},
+      {"id": "palito arriba de la banda:4", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32},
+      {"id": "palito arriba de la banda:5", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32},
+      {"id": "palito arriba de la banda:6", "normalN": 0.22, "muEstatica": 0.46, "muDinamica": 0.32}
+    ],
+    "objeto": {"forma": "cuboide", "dimensionesM": [0.022, 0.022, 0.020], "masaKg": 0.020, "parametroBulletBanda": 0.55, "parametroBulletObjeto": 0.55, "parametroBulletDesviador": 0.38},
+    "servo": {"derechaGrad": -40, "izquierdaGrad": 40, "velocidadGradS": 180, "retardoS": 0.08}
+  },
+  "calibracionPendiente": {
+    "tensionAlimentacionV": 12,
+    "velocidadNominalDeclaradaRPM": 170,
+    "velocidadVacioMedidaRPM": null,
+    "curvaParVelocidadCorriente": null,
+    "inerciaMotorReductorReflejadaKgM2": null,
+    "perdidaMecanicaNm": null,
+    "pretensionN": null,
+    "fuerzaNormalPorApoyoN": [null,null,null,null,null,null],
+    "caraInferiorSBRoTextil": null,
+    "friccionSBR_PLA_FDM": {"estatica": null, "dinamica": null},
+    "friccionSBR_POM": {"estatica": null, "dinamica": null},
+    "friccionObjeto_SBR": {"estatica": null, "dinamica": null},
+    "friccionObjeto_PLA": {"estatica": null, "dinamica": null},
+    "capacidadPrisioneroNm": null,
+    "relacionEncoderASalida": null,
+    "pulsosEncoderPorVuelta": null,
+    "velocidadRodilloMedidaRpm": null,
+    "velocidadBandaMedidaMps": null,
+    "clasificacionDerechaGrad": null,
+    "clasificacionIzquierdaGrad": null,
+    "retardoServoMedidoS": null,
+    "FOVCamara": null
+  },
+  "variablesDeFalla": {"cargaKg": 0, "factorNormales": 1, "factorFriccionApoyos": 1, "atascoN": 0, "factorCapacidadPrisionero": 1, "acopleAbierto": false, "factorTraccion": 1, "derivaEncoder": 0, "encoderSinDatos": false, "retardoServoS": 0, "comunicacionVigente": null},
+  "referencias": [
+    {"fuente": "https://journalmt.com/pdfs/mft/2021/02/01.pdf", "alcance": "SBR sobre probeta plástica. Medias estáticas 0.54 y 0.80, cinéticas 0.38 y 0.58 en dos cargas. El par y acabado difieren de la banda del prototipo."},
+    {"fuente": "https://akjournals.com/downloadpdf/view/journals/1848/10/2/article-p173.pdf", "alcance": "Ensayos de PLA y ABS FDM. Sensibilidad de fricción y desgaste al proceso, material y condiciones de ensayo."},
+    {"fuente": "https://store.astm.org/g0115-24.html", "alcance": "Procedimiento para medir y documentar coeficientes de fricción bajo condiciones definidas."}
+  ]
+}

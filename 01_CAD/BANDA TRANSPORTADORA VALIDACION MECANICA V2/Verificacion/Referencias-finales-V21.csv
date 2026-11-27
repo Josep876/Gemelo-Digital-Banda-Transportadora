@@ -1,0 +1,63 @@
+Documento,Archivo
+./ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam
+./ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam,./Motorreductor.iam
+./Motorreductor.iam,./Conector_6_pines.ipt
+./Motorreductor.iam,./Disco_magnetico.ipt
+./Motorreductor.iam,./Eje_encoder.ipt
+./Motorreductor.iam,./Eje_salida_D4.ipt
+./Motorreductor.iam,./Motor_DC.ipt
+./Motorreductor.iam,./PCB_encoder.ipt
+./Motorreductor.iam,./Pin_1.ipt
+./Motorreductor.iam,./Pin_2.ipt
+./Motorreductor.iam,./Pin_3.ipt
+./Motorreductor.iam,./Pin_4.ipt
+./Motorreductor.iam,./Pin_5.ipt
+./Motorreductor.iam,./Pin_6.ipt
+./Motorreductor.iam,./Reductora.ipt
+./Motorreductor.iam,./Sensor_Hall_1.ipt
+./Motorreductor.iam,./Sensor_Hall_2.ipt
+./Motorreductor.iam,./Separador.ipt
+./Motorreductor.iam,./Tapa.ipt
+./Motorreductor.iam,./Tornillo_1.ipt
+./Motorreductor.iam,./Tornillo_2.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Banda.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2n34.fins
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2n34.fsat
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2n34.ftes
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2n34.fwiz
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2nr4.fmsh
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BANDA_TRANSPORTADORA_PLA_SBR_FINAL/AIP/FEA/fmgkp2ns0.fres
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Base Rodamiento delgado.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./BaseRodamiento.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Cabezal camara.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Camara.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Desviador.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Laiminamodific.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./palito arriba de la banda.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Paralela_diseno.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Pata1.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Pata2.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./pieza negra derecha.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Pieza negra.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Pieza8.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Prisionero_M3x4.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Riel Banda.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Rodamiento grande.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./rodamiento.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./rodillo con rodamiento 2.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./rodillo con rodamiento.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./Rodillos mitad banda.ipt
+./BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam,./SERVOMOTOR.ipt
+./Laiminamodific.ipt,./Texturas/PLA_FDM_capas.png
+./Paralela_diseno.ipt,./Texturas/PLA_FDM_capas.png
+./Pieza8.ipt,./Texturas/PLA_FDM_capas.png
+./palito arriba de la banda.ipt,./Texturas/PLA_FDM_capas.png
+./Cabezal camara.ipt,./Texturas/PLA_FDM_capas.png
+./Desviador.ipt,./Texturas/PLA_FDM_capas.png
+./Banda.ipt,./Texturas/SBR_canto_tela.png
+./Banda.ipt,./Texturas/SBR_grano_fino.png
+./BaseRodamiento.ipt,./Texturas/PLA_FDM_capas.png
+./Rodamiento grande.ipt,./Texturas/PLA_FDM_capas.png
+./Base Rodamiento delgado.ipt,./Texturas/PLA_FDM_capas.png
+./pieza negra derecha.ipt,./Texturas/PLA_FDM_capas.png
+./Pieza negra.ipt,./Texturas/PLA_FDM_capas.png

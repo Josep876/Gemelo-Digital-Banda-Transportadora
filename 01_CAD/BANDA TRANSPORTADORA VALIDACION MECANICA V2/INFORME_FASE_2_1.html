@@ -1,0 +1,179 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fase 2.1 · Banda transportadora y gemelo digital</title>
+<style>
+:root{--tinta:#142a32;--muted:#435963;--borde:#d3e2e4;--verde:#136e65;--suave:#edf6f4}*{box-sizing:border-box}body{margin:0;background:#eef3f4;color:var(--tinta);font:16px/1.55 'Segoe UI',sans-serif}header,main,footer{max-width:1200px;margin:auto}header{padding:2.6rem clamp(1rem,4vw,3rem);background:#102e3a;color:#f8fbfc}header p{max-width:80ch;margin:.3rem 0}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.45rem 0 1rem}main{background:#fff;padding:0 clamp(1rem,4vw,3rem) 2.5rem}nav{display:flex;flex-wrap:wrap;gap:1em;padding:1rem 0;border-bottom:1px solid var(--borde)}a{color:var(--verde);text-underline-offset:.13em}section{padding-top:1.2rem}h2{margin-top:.5rem;border-bottom:1px solid var(--borde);padding-bottom:.3em;font-size:1.48rem}h3{font-size:1.12rem}.datos{padding:1rem;background:var(--suave);font-weight:600;display:flex;gap:1.15rem;flex-wrap:wrap}.tabla{overflow:auto;margin:.55rem 0 1rem}table{width:100%;border-collapse:collapse;font-size:.91rem}th,td{text-align:left;padding:.48rem .62rem;border-bottom:1px solid var(--borde);vertical-align:top}th{background:#e8f3f2}tbody tr:nth-child(even){background:#f6fafb}dt{font-weight:650}dd{margin:.1rem 0 .6rem;overflow-wrap:anywhere}.fotos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,304px),1fr));gap:1rem}figure{margin:0;overflow:hidden;border:1px solid var(--borde);border-radius:.5rem}figure img{display:block;width:100%;height:auto}figcaption{padding:.55rem .7rem;background:var(--suave)}.aviso{border-left:3px solid #a7632b;background:#fff3e7;padding:.65rem .85rem}details{margin:.8rem 0}summary{cursor:pointer;font-weight:650}footer{padding:1rem;color:var(--muted)}@media print{body{background:#fff}header{background:#fff;color:var(--tinta)}figure,table{break-inside:avoid}}
+</style></head><body><header><p>Autodesk Inventor 2025.3 y CoppeliaSim Edu 4.10</p>
+<h1>Fase 2.1 · Banda transportadora</h1><p>Corrección del ramal de transporte, acoplamiento directo del motorreductor y ensayos locales para el gemelo digital.</p></header>
+<main><nav aria-label="Secciones"><a href="#entrega">Entrega</a><a href="#banda">Banda y apoyos</a><a href="#acople">Acoplamiento</a><a href="#revision">Verificación</a><a href="#pruebas">Ensayos</a><a href="#evidencia">Capturas</a></nav>
+
+<section id="entrega"><h2>Archivos y protección del proyecto</h2>
+<div class="datos"><span>61 ocurrencias</span><span>44 documentos CAD</span><span>62 referencias</span><span>7 → 5 solapes B-Rep</span></div>
+<dl><dt>Ensamblaje de partida</dt><dd>Proyecto local de validación mecánica de fase 2</dd><dt>Respaldo de fase 2</dt><dd>Respaldo local de fase 2.1</dd><dt>Proyecto V2</dt><dd>ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam</dd></dl>
+<p>Se comprobaron 167 archivos de la fase 2 y su copia con SHA-256. Se registraron 0 diferencias y 0 enlaces inválidos. La escena anterior se conserva en el respaldo. La huella geométrica de los documentos existentes cambió en rodillo con rodamiento.ipt y Banda.ipt. Se agregó un prisionero y se actualizaron relaciones de montaje en los IAM. Los materiales y apariencias existentes registraron 0 cambios materiales y 0 cambios de apariencia. La masa CAD final registrada es 2,60259 kg.</p>
+<p><a href='ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam'>Ensamblaje V2</a> · <a href='EXPORTACION_COPPELIASIM/Banda_clasificadora_V2.ttt'>Escena V2</a> · <a href='EXPORTACION_COPPELIASIM/ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.step'>STEP</a> · <a href='EXPORTACION_COPPELIASIM/Manifiesto.json'>Manifiesto</a> · <a href='Verificacion/Entrega-V21.json'>Comparación</a> · <a href='Verificacion/Integridad-V2.csv'>SHA-256 de los archivos de entrega</a></p></section>
+
+<section id="banda"><h2>Ramal superior sobre los seis apoyos</h2>
+<p>Se conservaron los montajes de los palitos. Sus caras centrales coplanares definen el tramo de deslizamiento. Los resaltes de fijación quedan fuera de los 100 mm de producto. El perfil de banda enlaza el tramo elevado con ambos rodillos de extremo, conserva el retorno sobre los intermedios y forma un sólido continuo de 100 × 1 mm. La longitud geométrica por fibra media es 1196,85 mm. Su validez como longitud de corte depende de la pretensión y del laminado medidos.</p>
+<div class='tabla'><table><thead><tr><th scope="col">Instancia</th><th scope="col">Cara &#250;til mm</th><th scope="col">Distancia m&#237;nima banda mm</th><th scope="col">Sujeci&#243;n</th></tr></thead><tbody><tr><td>palito arriba de la banda:1</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr>
+<tr><td>palito arriba de la banda:2</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr>
+<tr><td>palito arriba de la banda:3</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr>
+<tr><td>palito arriba de la banda:4</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr>
+<tr><td>palito arriba de la banda:5</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr>
+<tr><td>palito arriba de la banda:6</td><td>12,820</td><td>0,00000</td><td>Fija</td></tr></tbody></table></div>
+<p>Se comprobaron las 11 interfaces con el CAD nativo. Las tangencias de los cinco rodillos y el asiento de los seis apoyos se registraron dentro de la tolerancia de cálculo, con 0 penetraciones volumétricas registradas en ese conjunto. La altura del eje óptico provisional sobre el nuevo ramal es 80,95 mm y la distancia longitudinal a la zona del pivote es 288,52 mm. El campo de visión, la iluminación y el enfoque quedan para calibración física. <a href='Verificacion/Banda-y-apoyos-V21.json'>Distancias y cotas nativas</a></p></section>
+
+<section id="acople"><h2>Transmisión directa JGA25-370 a rodillo POM</h2>
+<p>La salida comercial D4 conserva su geometría. El CAD medía 0,70 mm de separación inicial, 8,00 mm de tramo plano y 1,50 mm del centro al plano de apriete. El prototipo ha sido confirmado por el propietario como conexión directa mediante prisionero.</p>
+<p>La extensión axial provisional es de 6,70 mm y Ø13,0 mm. El cilindro D4 entra 6,00 mm en un taladro Ø4,10 mm y 6,25 mm de profundidad. El fondo deja 0,25 mm. Se diseñó un agujero redondo para que el tornillo apoye sobre el plano y el acoplamiento pueda representarse como capaz de deslizar con el prisionero flojo. La geometría del M3 × 4 representa su envolvente, la punta y el acceso hexagonal. Paso, apriete, material de la pieza real y resistencia de la rosca del POM requieren verificación. Los parámetros principales quedaron editables en el IPT. <a href='https://media.bossard.com/ca-en/-/media/bossard-group/website/documents/technical-resources/en/f-077-en.pdf'>Referencia dimensional de tornillería</a></p>
+<p>Se aplicó un alivio Ø27,4 mm sobre 2,07 mm del hombro exterior a la franja útil. El tambor conserva Ø30 mm en la superficie de trabajo. El apoyo opuesto se corrigió 0,692 mm en su referencia de altura. El descentrado final es 0,00000 mm y quedó una holgura axial CAD de 0,030 mm. Conviene medir en el prototipo las cotas de asiento y el acceso al prisionero antes de fabricar. <a href='Verificacion/Acople-V21.json'>Cotas del acople</a> · <a href='Verificacion/Apoyo-opuesto-V21.json'>Alineación del apoyo</a></p>
+<p>La relación angular activa conserva la fase del plano D con el rodillo. Un accionamiento reversible en el ensamble flexible midió -15,000° en el eje y -15,000° en el rodillo. El prisionero quedó unido al motriz por tres planos. La consulta genérica de Inventor informó 3T/3R para esa ocurrencia dependiente. La prueba del montaje completo comprobó el mismo giro de las tres piezas en ocho posiciones. <a href='Verificacion/Prisionero-V21.json'>Ensayo del prisionero</a> · <a href='Verificacion/Arrastre-nativo-V21.json'>Accionamiento 1:1</a> · <a href='Verificacion/Giros-en-montaje-V21.json'>Giros desde disco</a></p>
+<details><summary>Ángulos e interferencias durante el giro</summary><div class='tabla'><table><thead><tr><th scope="col">Consigna relativa &#176;</th><th scope="col">Eje D4 &#176;</th><th scope="col">Rodillo &#176;</th><th scope="col">Prisionero &#176;</th><th scope="col">Interferencias del grupo</th></tr></thead><tbody><tr><td>15</td><td>-15,000</td><td>-15,000</td><td>-15,000</td><td>0</td></tr>
+<tr><td>45</td><td>-45,000</td><td>-45,000</td><td>-45,000</td><td>0</td></tr>
+<tr><td>75</td><td>-75,000</td><td>-75,000</td><td>-75,000</td><td>0</td></tr>
+<tr><td>30</td><td>-30,000</td><td>-30,000</td><td>-30,000</td><td>0</td></tr>
+<tr><td>0</td><td>0,000</td><td>0,000</td><td>0,000</td><td>0</td></tr>
+<tr><td>-30</td><td>30,000</td><td>30,000</td><td>30,000</td><td>0</td></tr>
+<tr><td>-45</td><td>45,000</td><td>45,000</td><td>45,000</td><td>0</td></tr>
+<tr><td>0</td><td>0,000</td><td>0,000</td><td>0,000</td><td>0</td></tr></tbody></table></div></details></section>
+
+<section id="revision"><h2>Restricciones, interferencias y giro del desviador</h2>
+<p>El CAD se reabrió con la carcasa del JGA fija, ambos subensamblajes flexibles y 0 relaciones activas con estado incorrecto. El conducido y los tres intermedios mantienen un giro cada uno. Los seis apoyos, cámaras, rieles y carcasas permanecen fijos. Los registros incluyen restricciones anteriores y finales y los cambios de pose calculados. <a href='Verificacion/Relaciones-Inicial-V21.json'>Relaciones iniciales</a> · <a href='Verificacion/Relaciones-Final-V21.json'>Relaciones finales</a> · <a href='Verificacion/Poses-V21.csv'>Cambios de posición</a> · <a href='Verificacion/Piezas-V21.csv'>Piezas y materiales</a></p>
+<details><summary>Inventario y lecturas de grados de libertad</summary><div class='tabla'><table><thead><tr><th scope="col">Conjunto</th><th scope="col">Ocurrencia</th><th scope="col">T</th><th scope="col">R</th><th scope="col">Funci&#243;n o v&#237;nculo</th></tr></thead><tbody><tr><td>ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam</td><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL:1</td><td>0</td><td>0</td><td>Subensamblaje de montaje</td></tr>
+<tr><td>ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam</td><td>Motorreductor:1</td><td>3</td><td>3</td><td>Subensamblaje de montaje</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Riel Banda:1</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Riel Banda:2</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pata1:1</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pata1:2</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pata2:1</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pata2:2</td><td>0</td><td>0</td><td>Estructura fija</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:1</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:2</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:3</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:4</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza negra:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza negra:2</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>pieza negra derecha:2</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>BaseRodamiento:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>BaseRodamiento:5</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Base Rodamiento delgado:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Rodamiento grande:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>BaseRodamiento:6</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodamiento:3</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Banda:1</td><td>0</td><td>0</td><td>Banda flexible / geometr&#237;a visual</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>SERVOMOTOR:2</td><td>0</td><td>0</td><td>Carcasa de actuador</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Rodillos mitad banda:1</td><td>0</td><td>1</td><td>Rodillo giratorio</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Rodillos mitad banda:2</td><td>0</td><td>1</td><td>Rodillo giratorio</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Rodillos mitad banda:3</td><td>0</td><td>1</td><td>Rodillo giratorio</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodillo con rodamiento 2:1</td><td>0</td><td>1</td><td>Rodillo giratorio</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodillo con rodamiento:2</td><td>0</td><td>1</td><td>Rodillo giratorio</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodamiento:5</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodamiento:6</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>rodamiento:7</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza8:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Desviador:1</td><td>0</td><td>1</td><td>Clasificaci&#243;n / pivote servo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Cabezal camara:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Paralela_diseno:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:5</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>palito arriba de la banda:6</td><td>0</td><td>0</td><td>Apoyo inferior fijo de deslizamiento SBR–PLA</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza8:5</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza8:6</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Pieza8:7</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Paralela_diseno:3</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Laiminamodific:1</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Camara:1</td><td>0</td><td>0</td><td>Sensor</td></tr>
+<tr><td>BANDA_TRANSPORTADORA_PLA_SBR_FINAL.iam</td><td>Prisionero_M3x4:1</td><td>3</td><td>3</td><td>Unido al motriz por tres planos. Giro solidario comprobado.</td></tr>
+<tr><td>Motorreductor.iam</td><td>Reductora_1</td><td>0</td><td>0</td><td>Carcasa de actuador</td></tr>
+<tr><td>Motorreductor.iam</td><td>Motor_DC_2</td><td>0</td><td>0</td><td>Carcasa de actuador</td></tr>
+<tr><td>Motorreductor.iam</td><td>Tapa_3</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>Motorreductor.iam</td><td>Separador_4</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>Motorreductor.iam</td><td>PCB_encoder_5</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>Motorreductor.iam</td><td>Conector_6_pines_6</td><td>0</td><td>0</td><td>Soporte, gu&#237;a o componente fijo</td></tr>
+<tr><td>Motorreductor.iam</td><td>Eje_encoder_7</td><td>0</td><td>1</td><td>Rotor del encoder</td></tr>
+<tr><td>Motorreductor.iam</td><td>Disco_magnetico_8</td><td>0</td><td>1</td><td>Rotor del encoder</td></tr>
+<tr><td>Motorreductor.iam</td><td>Sensor_Hall_1_9</td><td>0</td><td>0</td><td>Sensor</td></tr>
+<tr><td>Motorreductor.iam</td><td>Sensor_Hall_2_10</td><td>0</td><td>0</td><td>Sensor</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_1_11</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_2_12</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_3_13</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_4_14</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_5_15</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Pin_6_16</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Tornillo_1_17</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Tornillo_2_18</td><td>0</td><td>0</td><td>Fijaci&#243;n o conexi&#243;n</td></tr>
+<tr><td>Motorreductor.iam</td><td>Eje_salida_D4_19</td><td>0</td><td>1</td><td>Eje de salida del JGA25-370</td></tr></tbody></table></div></details>
+<div class='tabla'><table><thead><tr><th scope="col">Componente A</th><th scope="col">Componente B</th><th scope="col">Inicial mm&#179;</th><th scope="col">Final mm&#179;</th><th scope="col">Diagn&#243;stico</th></tr></thead><tbody><tr><td>Conector_6_pines_6</td><td>Disco_magnetico_8</td><td>0,558</td><td>0,558</td><td>Posible invasi&#243;n del rotor del encoder por el conector reconstruido. Medir la holgura y el asiento de la PCB.</td></tr>
+<tr><td>Desviador:1</td><td>SERVOMOTOR:2</td><td>25,133</td><td>25,133</td><td>Solape localizado en el eje del horn. Se conserv&#243; el montaje f&#237;sico. Revisar c&#243;mo est&#225; representado el acople.</td></tr>
+<tr><td>Riel Banda:1</td><td>Rodillos mitad banda:1</td><td>4,522</td><td>4,522</td><td>El extremo del rodillo intersecta el perfil. Confirmar los pasos del eje y el taladrado real del riel.</td></tr>
+<tr><td>Riel Banda:1</td><td>Rodillos mitad banda:2</td><td>181,320</td><td>181,320</td><td>El extremo del rodillo intersecta el perfil. Confirmar los pasos del eje y el taladrado real del riel.</td></tr>
+<tr><td>Riel Banda:1</td><td>Rodillos mitad banda:3</td><td>183,639</td><td>183,639</td><td>El extremo del rodillo intersecta el perfil. Confirmar los pasos del eje y el taladrado real del riel.</td></tr>
+<tr><td>Rodamiento grande:1</td><td>rodillo con rodamiento:2</td><td>182,738</td><td>0,000</td><td>Suprimido el solape por alivio coaxial fuera de los 100 mm &#250;tiles.</td></tr>
+<tr><td>rodamiento:6</td><td>rodillo con rodamiento:2</td><td>54,930</td><td>0,000</td><td>Correcci&#243;n de altura de la base y retenci&#243;n axial del aro. Holgura nominal de 0,030 mm.</td></tr></tbody></table></div>
+<p>Se comprobaron 24 parejas de malla con envolventes comunes. En 13 parejas hubo contacto o intersección de triángulos. La lista no aporta volumen de penetración en mallas abiertas. Los pares de soportes, rodamientos y perfiles se interpretan como candidatos de ajuste o asiento a contrastar.</p><details><summary>Pares triangulares</summary><div class='tabla'><table><thead><tr><th scope="col">Malla o s&#243;lido A</th><th scope="col">Malla o s&#243;lido B</th></tr></thead><tbody><tr><td>Riel Banda:1</td><td>pieza negra derecha:2</td></tr>
+<tr><td>Riel Banda:2</td><td>Pieza negra:1</td></tr>
+<tr><td>Pieza negra:1</td><td>BaseRodamiento:5</td></tr>
+<tr><td>Pieza negra:2</td><td>BaseRodamiento:6</td></tr>
+<tr><td>pieza negra derecha:2</td><td>BaseRodamiento:1</td></tr>
+<tr><td>BaseRodamiento:1</td><td>rodillo con rodamiento 2:1</td></tr>
+<tr><td>BaseRodamiento:1</td><td>rodamiento:7</td></tr>
+<tr><td>BaseRodamiento:5</td><td>rodillo con rodamiento 2:1</td></tr>
+<tr><td>BaseRodamiento:6</td><td>rodillo con rodamiento:2</td></tr>
+<tr><td>BaseRodamiento:6</td><td>rodamiento:6</td></tr>
+<tr><td>SERVOMOTOR:2</td><td>Laiminamodific:1</td></tr>
+<tr><td>Paralela_diseno:1</td><td>Laiminamodific:1</td></tr>
+<tr><td>Paralela_diseno:3</td><td>Laiminamodific:1</td></tr></tbody></table></div></details>
+<p>El barrido refinado en pasos de 0,25° encontró el último ángulo libre muestreado a la derecha en -42,25° y a la izquierda en 45,00°. La primera colisión se midió a -42,50° y 45,25°, respectivamente. La escena limita cada lado de forma independiente y ensaya -40° y +40°. El CAD se conserva a 0°. Los límites se aplicaron en CoppeliaSim. La geometría, el servo y su montaje se conservaron. <a href='Verificacion/Barrido-V21.json'>Barrido por muestra</a></p></section>
+
+<section id="pruebas"><h2>Física y ensayos de CoppeliaSim</h2>
+<p>Se recompusieron 61 instancias a partir de 41 STL en milímetros y factores explícitos a metros. La comprobación de envolventes y transformaciones de escena dio un desvío máximo de 0,000000 mm. El STEP contiene sólidos B-Rep y los STL incluyen las piezas de malla. El manifiesto registra masas, centros de masa, ejes, momentos de inercia y relaciones mecánicas. Se conservaron las geometrías de rieles, soportes y placa del desviador para estudiar sus contactos. <a href='EXPORTACION_COPPELIASIM/Recomposicion-V21.json'>Correspondencia CAD–escena</a> · <a href='https://manual.coppeliarobotics.com/en/designingDynamicSimulations.htm'>Respuesta de colisión en CoppeliaSim</a></p>
+<p>El ramal físico se construyó con placas tangenciales contiguas a partir del perfil CAD. Su velocidad procede de un integrador de transmisión. El modelo emplea una curva par–velocidad provisional, inercias reflejadas, límites de adherencia por pretensión, impulsos de fricción en los seis apoyos y resistencia adicional por carga o atasco. En el estado normal eje y rodillo comparten giro. El aflojamiento limita el par y el desacoplamiento separa ambas inercias. Los rodillos pasivos siguen el desplazamiento de la banda con rodadura equivalente. <a href='Scripts/Dinamica-V21.lua'>Modelo equivalente ejecutado</a></p>
+<p>Escena guardada y reabierta. Se integró la dinámica de la transmisión bajo consignas locales y se usó Bullet para el movimiento del testigo. En la condición de 170 RPM de consigna, el caso de referencia calculó 0,2409 m/s y el caso con más fricción y 80 g de carga calculó 0,1912 m/s. El aflojamiento ilustrativo produjo 164,32 RPM del D4 y 0,00 RPM del rodillo. La deriva de encoder inyectada en el canal de observación produjo un residuo de 25 RPM. El estado calculado del motriz conservó un residuo de 0 RPM en su canal.</p>
+<div class='tabla'><table><thead><tr><th scope="col">Caso</th><th scope="col">Consigna RPM</th><th scope="col">Eje D4 RPM</th><th scope="col">Rodillo RPM</th><th scope="col">Banda m/s</th><th scope="col">Par eje Nm</th><th scope="col">Fuerza resistente N</th></tr></thead><tbody><tr><td>Referencia 50</td><td>50</td><td>30,91</td><td>30,91</td><td>0,0485</td><td>0,0077</td><td>0,502</td></tr>
+<tr><td>Referencia 100</td><td>100</td><td>81,92</td><td>81,92</td><td>0,1287</td><td>0,0079</td><td>0,502</td></tr>
+<tr><td>Referencia 150</td><td>150</td><td>132,94</td><td>132,94</td><td>0,2088</td><td>0,0082</td><td>0,502</td></tr>
+<tr><td>Referencia 170</td><td>170</td><td>153,35</td><td>153,35</td><td>0,2409</td><td>0,0083</td><td>0,502</td></tr>
+<tr><td>Apoyos con resistencia</td><td>170</td><td>121,73</td><td>121,73</td><td>0,1912</td><td>0,0200</td><td>1,292</td></tr>
+<tr><td>Atasco</td><td>170</td><td>0,00</td><td>0,00</td><td>0,0000</td><td>0,0650</td><td>4,333</td></tr>
+<tr><td>Prisionero aflojado</td><td>170</td><td>164,32</td><td>0,00</td><td>0,0000</td><td>0,0042</td><td>0,280</td></tr>
+<tr><td>Acople abierto</td><td>170</td><td>175,67</td><td>0,00</td><td>0,0000</td><td>0,0000</td><td>0,000</td></tr>
+<tr><td>Traccion reducida</td><td>170</td><td>161,89</td><td>161,89</td><td>0,0000</td><td>0,0051</td><td>0,289</td></tr>
+<tr><td>Deriva encoder sintetica</td><td>170</td><td>153,35</td><td>153,35</td><td>0,2409</td><td>0,0083</td><td>0,502</td></tr>
+<tr><td>Transporte neutro</td><td>170</td><td>153,35</td><td>153,35</td><td>0,2409</td><td>0,0083</td><td>0,502</td></tr>
+<tr><td>Clasificacion derecha</td><td>170</td><td>153,35</td><td>153,35</td><td>0,2409</td><td>0,0083</td><td>0,502</td></tr>
+<tr><td>Clasificacion izquierda</td><td>170</td><td>153,35</td><td>153,35</td><td>0,2409</td><td>0,0083</td><td>0,502</td></tr>
+<tr><td>Transporte 50</td><td>50</td><td>30,91</td><td>30,91</td><td>0,0485</td><td>0,0077</td><td>0,502</td></tr>
+<tr><td>Transporte 100</td><td>100</td><td>81,92</td><td>81,92</td><td>0,1287</td><td>0,0079</td><td>0,502</td></tr>
+<tr><td>Transporte 150</td><td>150</td><td>132,94</td><td>132,94</td><td>0,2088</td><td>0,0082</td><td>0,502</td></tr></tbody></table></div>
+<h3>Transporte y clasificación</h3>
+<p>Testigo cuboide de 22 × 22 × 20 mm y 20 g, colocado antes de la cámara y dentro de los primeros 20 mm de ramal. Las cuatro consignas del motor se ensayaron con y sin testigo según la tabla. La clasificación se evaluó por contacto con la placa y signo de desplazamiento lateral al salir. Para el paso neutro se usó una tolerancia de ensayo de ±8 mm alrededor de la línea inicial. Los resultados dependen del producto, el apoyo y el instante de giro.</p>
+<div class='tabla'><table><thead><tr><th scope="col">Prueba con testigo</th><th scope="col">Paso c&#225;mara</th><th scope="col">Salida ramal</th><th scope="col">Contacto desviador</th><th scope="col">Salida completa</th><th scope="col">Desv&#237;o lateral mm</th><th scope="col">Criterio de clasificaci&#243;n</th><th scope="col">Retorno &#176;</th></tr></thead><tbody><tr><td>Transporte neutro</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>-2,84</td><td>S&#237;</td><td>0,0000</td></tr>
+<tr><td>Clasificacion derecha</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>-13,41</td><td>S&#237;</td><td>0,0000</td></tr>
+<tr><td>Clasificacion izquierda</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>19,27</td><td>S&#237;</td><td>0,0000</td></tr>
+<tr><td>Transporte 50</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>-2,92</td><td>S&#237;</td><td>0,0000</td></tr>
+<tr><td>Transporte 100</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>15,80</td><td>Pendiente</td><td>0,0000</td></tr>
+<tr><td>Transporte 150</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>S&#237;</td><td>-9,04</td><td>Pendiente</td><td>0,0000</td></tr></tbody></table></div>
+<p>Los contactos discretos de Bullet incluyen eventos de proximidad y pequeñas penetraciones de resolución durante los impactos con la placa. También se ejecutó la comprobación geométrica independiente contra las mallas activas de los obstáculos. El JSON registra los vecinos, puntos de impacto, trazas y contactos por ensayo. <a href='EXPORTACION_COPPELIASIM/Resultados-V21.json'>Datos de los ensayos</a></p>
+<h3>Rozamiento y mediciones pendientes</h3>
+<p>Las fuerzas normales de los seis apoyos, la masa de carga, la pretensión, el límite de tracción y las pérdidas determinan la velocidad bajo carga. El material que toca el PLA en la cara inferior del laminado, caucho o tela, queda por identificar. La literatura consultada documentó medias de 0,54–0,80 estáticas y 0,38–0,58 cinéticas para una probeta de SBR sobre otro plástico. La caracterización FDM evidencia dependencia del proceso y del contracuerpo. Los valores de las parejas reales siguen por medir. Las constantes del ensayo están separadas en el archivo de calibración. <a href='https://journalmt.com/pdfs/mft/2021/02/01.pdf'>Estudio experimental de SBR</a> · <a href='https://akjournals.com/downloadpdf/view/journals/1848/10/2/article-p173.pdf'>Tribología de probetas FDM</a> · <a href='https://store.astm.org/g0115-24.html'>ASTM G115</a> · <a href='EXPORTACION_COPPELIASIM/Parametros_V21.json'>Parámetros ajustables</a></p>
+<p>Mediciones requeridas para calibrar el gemelo. El encoder incremental permite inferir velocidad en su eje si se conoce la relación de reducción y los pulsos por vuelta. Hace falta un canal independiente de velocidad de rodillo o banda para distinguir pérdida de acople y deslizamiento. La cámara puede medir paso y clasificación con geometría y tiempos calibrados. Corriente o torque, pretensión, fuerzas de apoyo, estado de la cara inferior y ángulo real del desviador necesitan instrumentación o ensayo específico. El modelo esperado se calcula con consignas y parámetros. La comparación con mediciones locales se almacena como residuo separado. Las pruebas fueron locales en Lua, con el prototipo y el ESP32 fuera del bucle.</p>
+<p class='aviso'>La dinámica de motor y banda usa supuestos de ensayo y la deformación del laminado se representa por un equivalente. Los ensayos del testigo corresponden a la escena descrita. La validación de torque, resistencia del prisionero y bandas de detección depende de pruebas físicas.</p></section>
+
+<section id='evidencia'><h2>Capturas y grabación</h2>
+<p>Las vistas del conjunto y de las tres posiciones del desviador son capturas de Inventor. CoppeliaSim capturó la escena, el testigo y la secuencia de clasificación. Las cuatro secciones de banda y acoplamiento se calcularon sobre los STL en el marco CAD, con colores de identificación. La vista de sección de Inventor devolvió un error de activación durante la revisión. <a href='Verificacion/Secciones-desde-STL-V21.json'>Planos y procedencia de las secciones</a></p>
+<p><a href="Capturas/Recorrido-y-clasificacion-derecha.gif">Grabación del recorrido y clasificación a la derecha</a></p><div class='fotos'><figure><img loading='lazy' src='Capturas/Antes-Fase21.png' alt='Estado de la fase 2'><figcaption>Estado de la fase 2</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/01-Ensamblaje-V21.png' alt='Ensamblaje maestro V2'><figcaption>Ensamblaje maestro V2</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/02-Ramal-libre-desde-arriba.png' alt='Ramal superior desde arriba'><figcaption>Ramal superior desde arriba</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/03-Lateral-seis-apoyos.png' alt='Corte lateral de la banda y los seis apoyos'><figcaption>Corte lateral de la banda y los seis apoyos</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/04-Seccion-SBR-seis-apoyos.png' alt='Secci&#243;n transversal de la cara SBR sobre PLA'><figcaption>Secci&#243;n transversal de la cara SBR sobre PLA</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/05a-Motriz-antes.png' alt='Rodillo motriz con extremo original'><figcaption>Rodillo motriz con extremo original</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/05b-Motriz-con-acople.png' alt='Rodillo motriz con el extremo de acoplamiento'><figcaption>Rodillo motriz con el extremo de acoplamiento</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/06-Seccion-longitudinal-D4.png' alt='Secci&#243;n longitudinal del acoplamiento D4'><figcaption>Secci&#243;n longitudinal del acoplamiento D4</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/07-Alojamiento-axial-D4.png' alt='Entrada axial del D4'><figcaption>Entrada axial del D4</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/08-Prisionero-M3.png' alt='Prisionero provisional M3 &#215; 4'><figcaption>Prisionero provisional M3 &#215; 4</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/09-Union-de-revolucion-JGA.png' alt='Eje de salida y uni&#243;n de revoluci&#243;n'><figcaption>Eje de salida y uni&#243;n de revoluci&#243;n</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/10-Desviador-neutro.png' alt='Desviador a 0&#176;'><figcaption>Desviador a 0&#176;</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/11-Desviador-derecha.png' alt='Desviador hacia la derecha'><figcaption>Desviador hacia la derecha</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/12-Desviador-izquierda.png' alt='Desviador hacia la izquierda'><figcaption>Desviador hacia la izquierda</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/13-Escena-CoppeliaSim.png' alt='Escena guardada en CoppeliaSim'><figcaption>Escena guardada en CoppeliaSim</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/14-Objeto-sobre-ramal.png' alt='Testigo sobre la banda'><figcaption>Testigo sobre la banda</figcaption></figure>
+<figure><img loading='lazy' src='Capturas/15-Objeto-zona-desviador.png' alt='Testigo en la zona de salida'><figcaption>Testigo en la zona de salida</figcaption></figure></div></section>
+</main><footer>27 de noviembre de 2026 · Verificación de la fase 2.1</footer></body></html>

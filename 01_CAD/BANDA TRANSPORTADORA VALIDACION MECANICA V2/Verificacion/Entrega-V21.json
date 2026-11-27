@@ -1,0 +1,53 @@
+{
+  "Original": "Proyecto de validación mecánica de fase 2",
+  "Respaldo": "Respaldo local de fase 2.1",
+  "Final": "./ESAMBLAJECOMPLETO_VALIDADO_SIMULACION_V2.iam",
+  "ArchivosVerificadosSHA": 167,
+  "DiferenciasSHA": [],
+  "Documentos": 44,
+  "Referencias": 62,
+  "ReferenciasInvalidas": [],
+  "RelActivasInvalidas": [],
+  "InventarioAntes": 60,
+  "InventarioFinal": 61,
+  "PiezasNuevas": [
+    {
+      "Pieza": "Prisionero_M3x4.ipt",
+      "Nueva": true,
+      "GeometriaCambio": false,
+      "MaterialAntes": "",
+      "MaterialFinal": "Acero",
+      "AspectoAntes": "",
+      "AspectoFinal": "Placa",
+      "MasaAntesKg": null,
+      "MasaDespuesKg": 0.000177027,
+      "MaterialCambio": false,
+      "AparienciaCambio": false
+    }
+  ],
+  "CambiosGeometricos": [
+    "rodillo con rodamiento.ipt",
+    "Banda.ipt"
+  ],
+  "MaterialesCambiados": [],
+  "AparienciasCambiadas": [],
+  "PosesCambiadas": [
+    {
+      "Nombre": "BaseRodamiento:6",
+      "DesplazamientoMm": 0.6923902140882454,
+      "GiroGrad": 0.0
+    },
+    {
+      "Nombre": "rodamiento:6",
+      "DesplazamientoMm": 0.7001573544212352,
+      "GiroGrad": 0.0
+    }
+  ],
+  "DesviacionMatricesMax": 4.90144458353825e-09,
+  "InterferenciasAntes": 7,
+  "InterferenciasFinal": 5,
+  "MasaKg": [
+    2.601577187,
+    2.60259279
+  ]
+}

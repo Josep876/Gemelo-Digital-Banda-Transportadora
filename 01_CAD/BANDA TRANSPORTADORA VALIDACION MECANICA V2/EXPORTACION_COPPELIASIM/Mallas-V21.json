@@ -1,0 +1,43 @@
+{
+  "contactosTriangulares":[{
+      "B":"pieza negra derecha:2",
+      "A":"Riel Banda:1"
+    },{
+      "B":"Pieza negra:1",
+      "A":"Riel Banda:2"
+    },{
+      "B":"BaseRodamiento:5",
+      "A":"Pieza negra:1"
+    },{
+      "B":"BaseRodamiento:6",
+      "A":"Pieza negra:2"
+    },{
+      "B":"BaseRodamiento:1",
+      "A":"pieza negra derecha:2"
+    },{
+      "B":"rodillo con rodamiento 2:1",
+      "A":"BaseRodamiento:1"
+    },{
+      "B":"rodamiento:7",
+      "A":"BaseRodamiento:1"
+    },{
+      "B":"rodillo con rodamiento 2:1",
+      "A":"BaseRodamiento:5"
+    },{
+      "B":"rodillo con rodamiento:2",
+      "A":"BaseRodamiento:6"
+    },{
+      "B":"rodamiento:6",
+      "A":"BaseRodamiento:6"
+    },{
+      "B":"Laiminamodific:1",
+      "A":"SERVOMOTOR:2"
+    },{
+      "B":"Laiminamodific:1",
+      "A":"Paralela_diseno:1"
+    },{
+      "B":"Laiminamodific:1",
+      "A":"Paralela_diseno:3"
+    }],
+  "paresConEnvolventeComun":24
+}
